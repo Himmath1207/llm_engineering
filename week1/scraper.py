@@ -1,5 +1,8 @@
 from bs4 import BeautifulSoup
 import requests
+import truststore
+
+truststore.inject_into_ssl()
 
 
 # Standard headers to fetch a website
